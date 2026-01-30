@@ -1,0 +1,130 @@
+<!-- =====================================================
+MONEY EDUCATION WEBSITE – FINAL VERSION
+All pages use SAME header + logo
+Save each section as its own .html file
+===================================================== -->
+
+<!-- =========================
+FILE: index.html
+========================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coralfish56 | Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#f4f7fb;color:#222}
+
+header{
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:#fff;
+  padding:30px 8% 80px;
+}
+.header-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-decoration:none;
+  color:#fff;
+}
+.logo img{height:45px;border-radius:8px}
+nav a{color:#fff;margin-left:25px;text-decoration:none;font-weight:500}
+.hero{text-align:center;margin-top:50px}
+.hero h1{font-size:3.2rem}
+.hero p{font-size:1.2rem;opacity:.9;max-width:700px;margin:15px auto}
+
+section{padding:60px 8%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,.08);transition:.3s;text-decoration:none;color:inherit}
+.card:hover{transform:translateY(-8px)}
+.card img{width:100%;height:200px;object-fit:cover}
+.card-content{padding:25px}
+.card h2{color:#203a43;margin-bottom:10px}
+footer{background:#0f2027;color:#ccc;text-align:center;padding:25px}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-top">
+    <a href="index.html" class="logo">
+      <img src="https://res.cloudinary.com/ddy3ou6s1/image/upload/v1769696189/a83a8884b458231862565f3f024f4d60_eidn1j.jpg">
+      <strong>Coralfish56</strong>
+    </a>
+    <nav>
+      <a href="money.html">Money</a>
+      <a href="types.html">Types Of Money</a>
+      <a href="Functions.html">Functions Of Money</a>
+      <a href="central-bank.html">Central Bank</a>
+      <a href="commercial-bank.html">Commercial Bank</a>
+    </nav>
+  </div>
+  <div class="hero">
+    <h1>Understanding Money</h1>
+    <p>A complete guide to money, Types, Functions, Characteristics, and modern digital finance.</p>
+  </div>
+</header>
+
+<section>
+  <div class="grid">
+
+    <a class="card" href="money.html">
+      <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e" alt="Money">
+      <div class="card-content">
+        <h2>Money</h2>
+        <p>Understand the concept of money and its role in everyday life and the economy.</p>
+      </div>
+    </a>
+
+    <a class="card" href="types.html">
+      <img src="https://images.unsplash.com/photo-1604594849809-dfedbc827105" alt="Types of Money">
+      <div class="card-content">
+        <h2>Types of Money</h2>
+        <p>Learn about commodity money, fiat money, digital money, and more.</p>
+      </div>
+    </a>
+
+    <a class="card" href="functions.html">
+      <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f" alt="Functions of Money">
+      <div class="card-content">
+        <h2>Functions of Money</h2>
+        <p>Explore how money acts as a medium of exchange, store of value, and unit of account.</p>
+      </div>
+    </a>
+
+    <a class="card" href="characteristics.html">
+      <img src="https://images.unsplash.com/photo-1580519542036-c47de6196ba5" alt="Characteristics of Money">
+      <div class="card-content">
+        <h2>Characteristics of Money</h2>
+        <p>Discover the qualities that make money acceptable and effective.</p>
+      </div>
+    </a>
+
+    <a class="card" href="commercial-bank.html">
+      <img src="https://res.cloudinary.com/ddy3ou6s1/image/upload/v1769667837/int_3665634_awws7f.jpg" alt="Commercial Bank">
+      <div class="card-content">
+        <h2>Commercial Bank</h2>
+        <p>Understand how commercial banks accept deposits and provide loans.</p>
+      </div>
+    </a>
+
+    <a class="card" href="central-bank.html">
+      <img src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc" alt="Central Bank">
+      <div class="card-content">
+        <h2>Central Bank</h2>
+        <p>Learn the role of the central bank in controlling money supply and stability.</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+<footer>© 2026 Coralfish56</footer>
+</body>
+</html>
